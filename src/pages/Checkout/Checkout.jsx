@@ -26,7 +26,7 @@ const Checkout = () => {
     };
     console.log(bookings);
 
-    fetch("http://localhost:5000/bookings", {
+    fetch("https://car-doctor-server-three-olive.vercel.app/bookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
